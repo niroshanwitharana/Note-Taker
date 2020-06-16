@@ -1,0 +1,25 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "description": "This is an app for take notes. AS A user, you will be able to write and save notes and also delete notes you've written before.you can organize my thoughts and keep track of tasks you need to complete",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niroshanwitharana/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niroshanwitharana/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/niroshanwitharana/Note-Taker#readme"
+}
