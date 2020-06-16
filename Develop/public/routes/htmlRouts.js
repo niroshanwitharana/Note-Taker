@@ -1,7 +1,14 @@
 // DEPENDENCIES
 // We need to include the path package to get the correct file path for our html
+const express = require("express");
+var app = express();
+
 
 var path = require("path");
+
+// Set static folder
+
+app.use(express.static(path.join(__dirname, "../public")));
 
 // ROUTING
 
